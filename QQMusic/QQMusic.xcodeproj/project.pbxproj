@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1BA34421BA1BE100017A3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA34411BA1BE100017A3A3 /* main.m */; };
-		A1BA34451BA1BE100017A3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA34441BA1BE100017A3A3 /* AppDelegate.m */; };
-		A1BA34481BA1BE100017A3A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA34471BA1BE100017A3A3 /* ViewController.m */; };
-		A1BA344B1BA1BE100017A3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BA34491BA1BE100017A3A3 /* Main.storyboard */; };
-		A1BA344D1BA1BE100017A3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BA344C1BA1BE100017A3A3 /* Images.xcassets */; };
 		A1BA34501BA1BE100017A3A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BA344E1BA1BE100017A3A3 /* LaunchScreen.xib */; };
 		A1BA345C1BA1BE100017A3A3 /* QQMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA345B1BA1BE100017A3A3 /* QQMusicTests.m */; };
+		A1BA346F1BA1BE860017A3A3 /* ZHPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA34681BA1BE860017A3A3 /* ZHPlayingViewController.m */; };
+		A1BA34701BA1BE860017A3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA346C1BA1BE860017A3A3 /* AppDelegate.m */; };
+		A1BA34711BA1BE860017A3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA346D1BA1BE860017A3A3 /* main.m */; };
+		A1BA34731BA1BE980017A3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BA34721BA1BE980017A3A3 /* Main.storyboard */; };
+		A1BA34751BA1BEB20017A3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BA34741BA1BEB20017A3A3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +29,17 @@
 /* Begin PBXFileReference section */
 		A1BA343C1BA1BE100017A3A3 /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BA34401BA1BE100017A3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1BA34411BA1BE100017A3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1BA34431BA1BE100017A3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A1BA34441BA1BE100017A3A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1BA34461BA1BE100017A3A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1BA34471BA1BE100017A3A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1BA344A1BA1BE100017A3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1BA344C1BA1BE100017A3A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A1BA344F1BA1BE100017A3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A1BA34551BA1BE100017A3A3 /* QQMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BA345A1BA1BE100017A3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BA345B1BA1BE100017A3A3 /* QQMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTests.m; sourceTree = "<group>"; };
+		A1BA34671BA1BE860017A3A3 /* ZHPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPlayingViewController.h; sourceTree = "<group>"; };
+		A1BA34681BA1BE860017A3A3 /* ZHPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPlayingViewController.m; sourceTree = "<group>"; };
+		A1BA346B1BA1BE860017A3A3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1BA346C1BA1BE860017A3A3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1BA346D1BA1BE860017A3A3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1BA34721BA1BE980017A3A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A1BA34741BA1BEB20017A3A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +81,10 @@
 		A1BA343E1BA1BE100017A3A3 /* QQMusic */ = {
 			isa = PBXGroup;
 			children = (
-				A1BA34431BA1BE100017A3A3 /* AppDelegate.h */,
-				A1BA34441BA1BE100017A3A3 /* AppDelegate.m */,
-				A1BA34461BA1BE100017A3A3 /* ViewController.h */,
-				A1BA34471BA1BE100017A3A3 /* ViewController.m */,
-				A1BA34491BA1BE100017A3A3 /* Main.storyboard */,
-				A1BA344C1BA1BE100017A3A3 /* Images.xcassets */,
+				A1BA34651BA1BE860017A3A3 /* Classess */,
 				A1BA344E1BA1BE100017A3A3 /* LaunchScreen.xib */,
+				A1BA34741BA1BEB20017A3A3 /* Images.xcassets */,
+				A1BA34721BA1BE980017A3A3 /* Main.storyboard */,
 				A1BA343F1BA1BE100017A3A3 /* Supporting Files */,
 			);
 			path = QQMusic;
@@ -97,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				A1BA34401BA1BE100017A3A3 /* Info.plist */,
-				A1BA34411BA1BE100017A3A3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +113,50 @@
 				A1BA345A1BA1BE100017A3A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1BA34651BA1BE860017A3A3 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA34661BA1BE860017A3A3 /* Controller */,
+				A1BA34691BA1BE860017A3A3 /* Model */,
+				A1BA346A1BA1BE860017A3A3 /* Other */,
+				A1BA346E1BA1BE860017A3A3 /* View */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		A1BA34661BA1BE860017A3A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA34671BA1BE860017A3A3 /* ZHPlayingViewController.h */,
+				A1BA34681BA1BE860017A3A3 /* ZHPlayingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1BA34691BA1BE860017A3A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1BA346A1BA1BE860017A3A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA346B1BA1BE860017A3A3 /* AppDelegate.h */,
+				A1BA346C1BA1BE860017A3A3 /* AppDelegate.m */,
+				A1BA346D1BA1BE860017A3A3 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A1BA346E1BA1BE860017A3A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BA344B1BA1BE100017A3A3 /* Main.storyboard in Resources */,
+				A1BA34751BA1BEB20017A3A3 /* Images.xcassets in Resources */,
+				A1BA34731BA1BE980017A3A3 /* Main.storyboard in Resources */,
 				A1BA34501BA1BE100017A3A3 /* LaunchScreen.xib in Resources */,
-				A1BA344D1BA1BE100017A3A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BA34481BA1BE100017A3A3 /* ViewController.m in Sources */,
-				A1BA34451BA1BE100017A3A3 /* AppDelegate.m in Sources */,
-				A1BA34421BA1BE100017A3A3 /* main.m in Sources */,
+				A1BA34701BA1BE860017A3A3 /* AppDelegate.m in Sources */,
+				A1BA34711BA1BE860017A3A3 /* main.m in Sources */,
+				A1BA346F1BA1BE860017A3A3 /* ZHPlayingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +284,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1BA34491BA1BE100017A3A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1BA344A1BA1BE100017A3A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1BA344E1BA1BE100017A3A3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
